@@ -71,5 +71,11 @@ namespace ProgettoWPF.Classi
             this.Password = password;
         }
 
+        public string Info()
+        {
+            return "Username:" + UserName + "\nNome e cognome:" + NomeCompleto;
+        }
+
+
     }
 }
