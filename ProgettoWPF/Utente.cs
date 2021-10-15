@@ -71,7 +71,7 @@ namespace ProgettoWPF.Classi
             this.Password = password;
         }
 
-        public string Info()
+        public string Info() // metodo info in cui mostra tutte le info necessarie
         {
             return "Username:" + UserName + "\nNome e cognome:" + NomeCompleto;
         }
