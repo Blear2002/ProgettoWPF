@@ -35,7 +35,7 @@
         <StackPanel Grid.Column="0" Grid.Row="3" Orientation="Horizontal">
 
             <CheckBox VerticalAlignment="Center" ></CheckBox>
-            <Label VerticalAlignment="Center" FontSize="18">Ricorda Password</Label>
+            <Label VerticalAlignment="Center" FontSize="18">Ricorda Password</Label><!---->
 
         </StackPanel>
 
