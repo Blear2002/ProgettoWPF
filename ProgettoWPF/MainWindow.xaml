@@ -7,6 +7,44 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+
+        </Grid.RowDefinitions>
+
+
+        <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" FontSize="52">LOGIN</Label>
+
+        <Label Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48">LOGIN</Label>
+        <TextBox Grid.Column="1" Grid.Row="1"  Margin="20" FontSize="35" VerticalAlignment="Center"/>
+
+        <Label Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48">PASSWORD</Label>
+        <PasswordBox Grid.Column="1" Grid.Row="2"  Margin="20" FontSize="35" VerticalAlignment="Center"/>
+
+        <StackPanel Grid.Column="0" Grid.Row="3" Orientation="Horizontal">
+
+            <CheckBox VerticalAlignment="Center" ></CheckBox>
+            <Label VerticalAlignment="Center" FontSize="18">Ricorda Password</Label><!---->
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+
+            <Button Content="Annulla" Width="200" Margin="5" FontSize="24" Background="#E9967A"/>
+            <Button Content="Accedi" Width="200" Margin="5" FontSize="24" Background="AliceBlue"/>
+
+        </StackPanel>
 
     </Grid>
 </Window>
